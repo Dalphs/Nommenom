@@ -1,0 +1,81 @@
+html{
+    scroll-behavior: smooth;
+}
+
+body{
+    margin: 0px;
+    padding: 0px;
+    background-color: var(--secondary-color);
+}
+
+:root{
+    --main-color: #f65c78;
+    --main-color-darker: #cf5167;
+    --secondary-color: #ffd271;
+    --secondary-color-darker: #ffd271;
+    --third-color: #fff3af;
+    --fourth-color: #c3f584;
+}
+
+.jumbotron{
+    background-color: var(--main-color);
+    margin: 0px;
+}
+
+.responsive-header img{
+    max-width: 100%;
+    height: auto;
+    padding: 0rem 1rem;
+    
+}
+
+.responsive-header p{
+    padding-top: 1rem;
+    font-weight: bold;
+    color: var(--secondary-color);
+    font-size: 150%;
+    
+}
+
+.chunk-secondary{
+    background-color: var(--secondary-color);
+    margin: 0px;
+    display: flex;
+    justify-content: center;
+}
+
+.chunk-secondary h1{
+    color: var(--main-color);
+    text-align: center;
+}
+
+.chunk-secondary button{
+    border-radius: 2rem;
+    cursor: pointer;
+    padding: 1rem 4rem;
+    font-size: 3rem;
+    margin: 1rem 5rem;
+    color: var(--secondary-color);
+    background-color: var(--main-color);
+    border: 0;
+}
+
+.chunk-secondary button:hover{
+    border: 0.1rem ;
+    border-style: solid;
+    border-color: var(--main-color);
+    background-color: var(--main-color-darker);
+}
+
+.chunk-secondary button:active{
+    background-color: var(--main-color);
+}
+
+
+.chunk-secondary .content{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    width: 400px;
+    height: 1200px;
+}

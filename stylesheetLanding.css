@@ -1,0 +1,118 @@
+@font-face {
+    font-family: Candara;
+    src: url(./Candara.ttf);
+  }
+
+html{
+    scroll-behavior: smooth;
+    height: 100%;
+}
+
+body{
+    background-image: url("food.jpg");
+    background-repeat: no-repeat;
+    background-size: 100vw 100vh;
+}
+
+:root{
+    --main-color: #f65c78;
+    --main-color-darker: #cf5167;
+    --secondary-color: #ffd271;
+    --secondary-color-darker: #ffd271;
+    --third-color: #fff3af;
+    --fourth-color: #c3f584;
+}
+
+.header{
+    background-color: #f65c78cc;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.header img{
+    max-width:8vw;
+    height:auto;
+    margin: 1vh 1vw;
+}
+
+.header h1{
+    font-size: 600%;
+    color: var(--secondary-color-darker);
+
+}
+
+@media screen and (min-width: 640px){
+    .content{
+        margin: 10vh 0px;
+        display: flex;
+        justify-content: space-around;
+    }    
+}
+
+.text, .daily-news {
+    background-color: #fff3afcc;
+    color: var(--main-color);
+    max-width: 40rem;
+    padding: 10px 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    border-radius: 15px;
+}
+
+.text p, .daily-news p, .text h1, .daily-news h1  {
+    font-family: Candara;
+}
+
+.text p, .daily-news p {
+    font-size: 150%;
+}
+
+.radio-buttons{
+    display: flex;
+}
+
+.radio-button-row{
+    margin: 0px 20px;
+}
+
+.button{
+    margin: 10px 20px;
+    border-radius: 2rem;
+    cursor: pointer;
+    padding: 1rem 4rem;
+    font-size: 2rem;
+    margin: 1rem 5rem;
+    color: var(--secondary-color);
+    background-color: var(--main-color);
+    border: 0;
+}
+
+.button:hover{
+    border: 0.2rem ;
+    border-style: solid;
+    border-color: var(--main-color);
+    background-color: var(--main-color-darker);
+    padding: 0.8rem 3.8rem;
+}
+
+.button:active{
+    background-color: var(--main-color);
+}
+
+.email-field{
+    border-radius: 5px;
+    background-color: rgba(0, 0, 0, 0%);
+    border-style: none none solid none;
+    margin-bottom: 5px;
+    margin-top: 5px;
+    min-width: 70%;
+}
+
+.email-field:focus{
+    background-color: #f65c7855; 
+}
+
+

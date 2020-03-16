@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Nommenom - Landing Page</title>
+<meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+  <script src="http://gsgd.co.uk/sandbox/jquery/easing/jquery.easing.1.3.js"></script>
+  <link rel="stylesheet" type="text/css" href="stylesheetLanding.css" />
+  <link rel="icon" href="favicon.png">
+</head>
+<body>
+    <div class=header>
+        <img src='favicon.png' id="header-image" alt='logo'>
+        <h1>Nommenom</h1>
+    </div>
+
+    <div class="content">
+        <div class = "text">
+            <h1>Hurtige forslag</h1>
+            <p>Nommenom er din vej til hurtig inspiration.<br>
+                Vi har samlet flere hunreder retter og stiller dem til rådighed for dig!!<br>
+            </p>
+            <button id="homepage-button" onclick="homepage()" class="button">Gå til hjemmeside</button>
+        </div>
+        <div class="daily-news">
+            <h1>Daglige opskrifter</h1>
+            <p>Tilmeld dig vores daglige nyhedsbrev hvor vi sender en opskrift hverdag. <br>
+            Vi tilpasser mailen ud fra dine ønsker så du kun modtager opskrifter der tiltaler dig</p>
+            <form>
+                <input type="text" name="mail" class="email-field" placeholder="Email"><br>
+                <p>Kategorier:</p>
+                    <div class="radio-buttons">
+                        <div class="radio-button-row">
+                            <input type="checkbox" id="vegetarian" name="vegetar" value="vegetarian">
+                            <label for="vegetarian">Vegetar</label><br>
+                            <input type="checkbox" id="pescatarian" name="pescatarian" value="Car">
+                            <label for="pescatarian">Pescetar</label><br>
+                            <input type="checkbox" id="vegan" name="vegan" value="Boat">
+                            <label for="vegan">veganer</label><br>
+                        </div>
+                        <div class="radio-button-row">
+                            <input type="checkbox" id="kylling" name="kylling" value="kylling">
+                            <label for="kylling">Kylling</label><br>
+                            <input type="checkbox" id="svinekød" name="svinkød" value="svin">
+                            <label for="svinekød">Svinekød</label><br>
+                            <input type="checkbox" id="oksekød" name="oksekød" value="okse">
+                            <label for="Okse">Oksekød</label><br>
+                        </div>
+                    </div>
+                <input type="submit" value="Tilmeld" class="button">
+            </form>
+        </div>
+    </div>
+    
+    <script src="landingScript.js"></script>
+</body>
+</html>

@@ -1,0 +1,21 @@
+Værdier: Hurtigt forslag til madplanlægningen
+
+Farver:
+  1: #f65c78;
+  Mørk 1: #cf5167;
+  2: #ffd271;
+  3: #fff3af;
+  4: #c3f584;
+
+Font:
+Candara
+H1 og p
+
+Logo: 
+logo.png
+
+Stil:
+Simpel hjemmeside for at leve op til værdien om hurtighed 
+
+billedvalg: 
+Mad-profilbilleder, rene close-up billeder kun med mad
